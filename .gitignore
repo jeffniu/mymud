@@ -38,3 +38,4 @@ proguard/
 .idea/workspace.xml
 MyMud.iml
 app/app.iml
+.idea/libraries/androidannotations_api_3_3_1.xml
