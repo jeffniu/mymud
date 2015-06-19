@@ -1,6 +1,7 @@
 package com.ngy.mymud.ui;
 
 import android.content.Context;
+import android.graphics.Typeface;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -25,6 +26,8 @@ public class FieldView extends RelativeLayout {
 
     @AfterViews
     protected void init() {
+        Typeface tf = Typeface.createFromAsset(getContext().getAssets(), "fonts/fangzheng_xiaozhuan.ttf");
+        mLocationName.setTypeface(tf);
         mLocationName.setText("location name: 场景名");
     }
 }
