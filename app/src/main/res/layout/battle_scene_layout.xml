@@ -7,4 +7,15 @@
         android:layout_width="match_parent"
         android:layout_height="200dp" />
 
+    <com.ngy.mymud.ui.widget.CharacterStatusBar
+        android:id="@+id/player_status"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/testShowHealthChange"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/player_status"
+        />
 </RelativeLayout>

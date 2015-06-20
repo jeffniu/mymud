@@ -4,17 +4,19 @@
     <item android:id="@android:id/background">
         <shape>
             <solid
-                android:color="@color/blood_color"
+                android:color="#04769d"
                 />
         </shape>
     </item>
 
     <item android:id="@android:id/progress">
-        <shape>
-            <solid
-                android:color="#04769d"
-                />
-        </shape>
+        <clip>
+            <shape>
+                <solid
+                    android:color="@color/blood_color"
+                    />
+            </shape>
+        </clip>
     </item>
 
 </layer-list>
