@@ -3,4 +3,42 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/character_display_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="[character_display_name]"
+            style="@style/CharacterNameStyle"
+            />
+        <TextView
+            android:id="@+id/character_health_change_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="-8"
+            android:textColor="@color/blood_color"
+            android:textSize="18sp"/>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/character_health_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/character_status_bar_height"
+        style="?android:progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/health_bar_background"
+        android:layout_marginTop="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/character_magic_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/character_status_bar_height"
+        style="?android:progressBarStyleHorizontal"
+        android:progressDrawable="@drawable/magic_bar_background"
+        android:layout_marginTop="15dp"/>
+
 </LinearLayout>

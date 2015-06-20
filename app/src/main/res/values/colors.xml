@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="character_name_color">#04b404</color>
+    <color name="blood_color">#9f0606</color>
+</resources>
