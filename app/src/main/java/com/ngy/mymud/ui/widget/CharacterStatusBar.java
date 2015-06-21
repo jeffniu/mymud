@@ -8,6 +8,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.ngy.mymud.R;
+import com.ngy.mymud.ui.UIUtil;
 
 
 /**
@@ -37,6 +38,7 @@ public class CharacterStatusBar extends LinearLayout {
     private void init(Context context) {
         inflate(context, R.layout.character_status_bar_view_layout, this);
         mNameText = (TextView) findViewById(R.id.character_display_name);
+        mNameText.setTypeface(UIUtil.getCartoonFont(getContext()));
         mHealthBar = (ProgressBar) findViewById(R.id.character_health_bar);
         mMagicBar = (ProgressBar) findViewById(R.id.character_magic_bar);
         mHeathChangeText = (TextView) findViewById(R.id.character_health_change_text);

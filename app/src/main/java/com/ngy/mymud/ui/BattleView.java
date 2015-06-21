@@ -31,7 +31,7 @@ public class BattleView extends RelativeLayout {
 
     @AfterViews
     protected void init() {
-        mPlayerStatus.setUsername("ngy");
+        mPlayerStatus.setUsername("牛广远");
         mPlayerStatus.setMaxValue(100, 100);
         mPlayerStatus.setCurrentValue(50, 80);
         mPlayerStatus.showHeathChange(12);
