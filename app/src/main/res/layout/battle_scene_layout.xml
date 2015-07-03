@@ -10,7 +10,7 @@
 
     <com.ngy.mymud.ui.widget.CharacterStatusBar
         android:id="@+id/player_status"
-        android:layout_width="200dp"
+        android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/battle_description"/>
 

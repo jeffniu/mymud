@@ -42,7 +42,7 @@ public class BattleView extends RelativeLayout {
             handler.postDelayed(new Runnable() {
                 @Override
                 public void run() {
-                    mBookView.addLine("hello, world");
+                    mBookView.addScriptLine("这是脚本");
                 }
             }, 1000 * i);
         }
